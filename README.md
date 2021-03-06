@@ -5,8 +5,8 @@ Clone repository
 edit routing.sql if you want change routes. This file is loaded when container is created.
 
 
-docker build -t webapp1 .
-docker run -p 8000:8000 webapp1
+    docker build -t webapp1 .
+    docker run -p 8000:8000 webapp1
 
 
 go to http://127.0.0.1:8000/route/?node_from=1&node_to=4
